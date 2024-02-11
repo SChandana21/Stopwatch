@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Stopwatch</title>
+  </head>
+  <body>
+    <p class="stopwatch-class">Stopwatch</p>
+    <style>
+
+
+      .stopwatch-class{
+        font-size: 25px;
+      }
+
+      .start-button{
+        background-color: rgb(144, 245, 159);
+        border:none;
+        padding:10px;
+        font-family: Arial;
+        font-weight: bold;
+        cursor: pointer;
+        margin-top: 50px;
+        margin-left: 600px;
+      }
+
+      .stop-button{
+        background-color: red;
+        border:none;
+        padding:10px;
+        font-family: Arial;
+        font-weight: bold;
+        cursor: pointer;
+        
+        
+      }
+
+      .reset-button{
+        background-color: rgb(222, 222, 255);
+        border: none;
+        padding:10px;
+        font-family: Arial;
+        font-weight: bold;
+        
+        cursor: pointer;
+        
+        
+        
+
+
+      }
+
+      #div{
+        font-size: 50px;
+        margin-left: 690px;
+    
+      }
+
+     
+
+    
+
+    </style>
+    <link ref="stylesheet" href="Stopwatch.css">
+    
+    <p></p>
+    <p></p>
+    <p></p>
+    <div class="js-div" id="div">0:00:00</div>
+
+
+
+    <button class="start-button" onclick="startwatch();">Start</button>
+    <button class="stop-button" onclick="Stopwatch();">Stop</button>
+    <button class="reset-button" onclick="resetbutton();">Reset</button>
+    
+
+
+    
+    
+    
+
+    
+    
+    <script src="Stopwatch.JS"></script>
+  </body>
+</html>
